@@ -14,7 +14,7 @@
   ],
 
   "background": {
-    "scripts": ["sec01-01.js", "sec01-02.js"]
+    "scripts": ["sec01-01.js", "sec01-02.js", "sec01-03.js"]
   },
 
   "applications": {
