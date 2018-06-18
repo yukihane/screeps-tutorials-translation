@@ -1,8 +1,8 @@
 {
 
-  "description": "Altering HTTP responses",
+  "description": "Screepsチュートリアルを日本語訳します。",
   "manifest_version": 2,
-  "name": "http-response-filter",
+  "name": "Screeps Tutorial JA",
   "version": "1.0",
   "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/http-response",
   "icons": {
