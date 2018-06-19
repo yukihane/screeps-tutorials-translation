@@ -61,16 +61,16 @@ function listener(details) {
 ただし、クリープがスポーンに隣接している場合、クリープは後退する必要が有ることを覚えておいて下さい。
 </p>
 <p>
-If you modify the code by adding the check <code>.carry.energy&nbsp;<&nbsp;.carryCapacity</code> to the creep,
-it will be able to go back and forth on its own, giving energy to the spawn and returning to the source.
+クリープに対して<code>.carry.energy&nbsp;<&nbsp;.carryCapacity</code>というチェックを行う変更を加えたなら、
+クリープ自身で行くか戻るか(スポーンにエナジーを与えたりソースへ戻ったり)を判断できるようになるでしょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Extend the creep program so that it can transfer harvested energy to the spawn and return back to work.
+収穫したエナジーをスポーンへ輸送し、そして仕事へ戻るようにクリーププログラムを拡張しましょう。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#Creep.transfer' target='_blank'>
