@@ -14,7 +14,8 @@
   ],
 
   "background": {
-    "scripts": ["sec01-01.js", "sec01-02.js", "sec01-03.js", "sec01-04.js", "sec01-05.js", "sec01-06.js", "sec01-07.js", "sec01-08.js", "sec01-09.js", "sec01-10.js", "sec01-11.js", "sec01-12.js", "sec01-13.js", "sec01-14.js", "sec01-15.js", "sec01-16.js", "sec01-17.js", "sec01-18.js", "sec01-19.js", "sec01-20.js", "sec01-21.js", "sec01-22.js"]
+    "scripts": ["sec01-01.js", "sec01-02.js", "sec01-03.js", "sec01-04.js", "sec01-05.js", "sec01-06.js", "sec01-07.js", "sec01-08.js", "sec01-09.js", "sec01-10.js", "sec01-11.js", "sec01-12.js", "sec01-13.js", "sec01-14.js", "sec01-15.js", "sec01-16.js", "sec01-17.js", "sec01-18.js", "sec01-19.js", "sec01-20.js", "sec01-21.js", "sec01-22.js",
+      "tutorial02/sec02-01.js"]
   },
 
   "applications": {
