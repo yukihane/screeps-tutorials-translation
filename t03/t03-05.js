@@ -63,23 +63,26 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-As before, let’s move this role into a separate module <code>role.builder</code>. The building is carried out
-by applying the method <code>Creep.build</code> to the construction sites searchable by
-<code>Room.find(FIND_CONSTRUCTION_SITES)</code>. The structure requires energy which your creep can harvest on its own.
+それではこのロールを<code>role.builder</code>モジュールへ分割しましょう。
+建築は、<code>Creep.build</code>メソッドを
+<code>Room.find(FIND_CONSTRUCTION_SITES)</code>によって検索可能な建設地に対し適用することで実行されます。
+建造物にはエナジーが必要です。
 </p>
 <p>
-To avoid having the creep run back and forth too often but make it deplete the cargo, let’s complicate our logic by
-creating a new Boolean variable <code>creep.memory.building</code> which will tell the creep when to switch tasks.
-We'll also add new <code>creep.say</code> call and <code>visualizePathStyle</code> option to the <code>moveTo</code>
-method to visualize the creep's intentions.
+エナジーの消耗を早めるのでなるべくクリープの頻繁な行き来を避けられるよう、
+いつタスクの切り替えを行うべきかクリープに教えられるような
+<code>creep.memory.building</code>というboolean変数を新しく作りロジックを組みましょう。
+また、クリープの行動意図をビジュアルで示せるよう、
+新規に<code>creep.say</code>を呼び、
+<code>moveTo</code>メソッドに<code>visualizePathStyle</code>オプションオプションを付与しましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Create the module <code>role.builder</code> with a behavior logic for a new creep.
+新しいクリープ用のロジックを<code>role.builder</code>モジュールに作成しましょう。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#RoomObject.room' target='_blank'>

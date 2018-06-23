@@ -24,7 +24,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Our new creep won’t move until we define the behavior for the role <code>builder</code>.
+新しいクリープはロール<code>builder</code>の振る舞いを定義するまで動きません。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>
