@@ -41,18 +41,18 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Let’s create a new creep whose purpose is to build structures. This process will be similar to the previous Tutorial sections.
-But this time let’s set <code>memory</code> for the new creep right in the method <code>Spawn.spawnCreep</code> by
-passing it in the third argument.
+構造物を建築するクリープを作成しましょう。
+作り方はこれまでのチュートリアルセクションで述べてきた手順と似ています。
+ですが、今回は <code>Spawn.spawnCreep</code> の第3引数で <code>memory</code> を設定してしまいましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Spawn a creep with the body <code>[WORK,CARRY,MOVE]</code>, the name <code>Builder1</code>, and <code>{role:'builder'}</code>
-as its memory.
+クリープをボディ <code>[WORK,CARRY,MOVE]</code> 、名前 <code>Builder1</code> 、メモリ <code>{role:'builder'}</code>
+で生成しましょう。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#StructureSpawn.spawnCreep' target='_blank'>StructureSpawn.spawnCreep</a></code>
