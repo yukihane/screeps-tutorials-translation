@@ -33,16 +33,18 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-The Controller upgrade gives access to some new structures: walls, ramparts, and extensions.
-We’ll discuss walls and ramparts in the next Tutorial section, for now let’s talk about extensions.
+コントローラをアップグレードすると新しい構造物にアクセスできるようになります:
+壁(wall)、城壁(rampart)、そして拡張(extension)です。
+今から拡張について説明します。壁と城壁については次のチュートリアルセクションで述べます。
 </p>
 <p>
-<b>Extensions</b> are required to build larger creeps. A creep with only one body part of one type works poorly.
-Giving it several <code>WORKs</code> will make him work proportionally faster.
+<b>拡張</b>を実行するには今より大きなクリープが必要です。
+ボディパーツを1つしか持たないクリープは仕事量が貧弱です。
+複数の<code>WORK</code>を付与すれば比例して働きが早くなります。
 </p>
 <p>
-However, such a creep will be costly and a lone spawn can only contain 300 energy units.
-To build creeps costing over 300 energy units you need spawn extensions.
+しかしそのようなクリープはコストが高く付きますし、そもそも1つのスポーンは300エナジーユニットしか保有できません。
+300エナジーユニットを超えるコストが必要なユニットを作るにはスポーン拡張が必要です。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>
