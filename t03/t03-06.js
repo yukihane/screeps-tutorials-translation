@@ -29,11 +29,11 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Let’s create a call of the new role in the main module and wait for the result.
+メインモジュールで新しいロールを呼び結果を待ちましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-By using the module <code>role.builder</code> in the new creep, build all 5 extensions.
+新しいクリープで<code>role.builder</code>モジュールを使うことで、5つ全ての拡張を建設します。
 </div>
 <app:tutorial-code title='main'></app:tutorial-code>
 <div class='tutorial-controls'>

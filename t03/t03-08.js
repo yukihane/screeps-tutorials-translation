@@ -52,19 +52,22 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Maintaining extensions requires you to teach your harvesters to carry energy not just to a spawn but also to
-extensions. To do this, you can either use the <code>Game.structures</code> object or search within the room
-with the help of <code>Room.find(FIND_STRUCTURES)</code>. In both cases, you will need to filter the list of
-items on the condition <code>structure.structureType == STRUCTURE_EXTENSION</code> (or, alternatively, <code>structure instanceof StructureExtension</code>)
-and also check them for energy load, as before.
+拡張を取り扱うには、スポーンに対してだけでなく拡張に対してもエナジーを運ぶようharvesterに教えてあげなければいけません。
+そうするために、<code>Game.structures</code>オブジェクトを使用するか、該当ルームで
+<code>Room.find(FIND_STRUCTURES)</code>を用います。
+両方のケースで
+<code>structure.structureType == STRUCTURE_EXTENSION</code>
+(もしくは代わりに<code>structure instanceof StructureExtension</code>)
+という条件でリストをフィルタする必要があるでしょう。
+そしてまた従来通りエナジーをロードするためにそれらをチェックします。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Refine the logic in the module <code>role.harvester</code>.
+<code>role.harvester</code>モジュールのロジックを改良しましょう。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#Game.structures' target='_blank'>
