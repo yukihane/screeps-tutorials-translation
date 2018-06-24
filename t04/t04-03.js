@@ -48,20 +48,20 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Let’s say we want to have at least two harvesters at any time. The easiest way to achieve this is to run
-<code>StructureSpawn.spawnCreep</code> each time we discover it’s less than this number. You may not define its
-name (it will be given automatically in this case), but don’t forget to define the needed role.
+常時少なくとも2体のharvesterを持っている状態にしましょう。
+最も簡単な実現方法は2未満になっていることが分かったら<code>StructureSpawn.spawnCreep</code>を実行することです。
+名前を定義することはできません(この方法は自動で命名されます)が、ロールを定義する必要があることを忘れないで下さい。
 </p>
 <p>
-We may also add some new <code>RoomVisual</code> call in order to visualize what creep is being spawned.
+クリープが生成されたことを視覚化するために新しく<code>RoomVisual</code>呼び出しを追加できます。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Add the logic for <code>StructureSpawn.spawnCreep</code> in your main module.
+メインモジュールに<code>StructureSpawn.spawnCreep</code>を実行するロジックを追加しましょう。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#StructureSpawn.spawnCreep' target='_blank'>StructureSpawn.spawnCreep</a></code>

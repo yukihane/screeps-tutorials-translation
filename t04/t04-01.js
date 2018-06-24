@@ -30,13 +30,13 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Until now, we have created new creeps directly in the console. It’s not a good idea to do it constantly since
-the very idea of Screeps is making your colony control itself. You will do well if you teach your spawn to
-produce creeps in the room on its own.
+ここまで、新しいクリープをコンソールで直接生成してきました。
+コロニーの制御を自分自身で行わなければならないのでこれはあまり良い考えではありません。
+ルーム内でのクリープ生成をスポーン自身ができるように教えてあげられるとより良くなります。
 </p>
 <p>
-This is a rather complicated topic and many players spend months perfecting and refining their auto-spawning
-code. But let’s try at least something simple and master some basic principles to start with.
+これはかなり複雑なトピックで、多くのプレーヤーが自動生成コードを完成させ改良するの何ヶ月も費やしています。
+しかし、ここでシンプルなものに挑戦し、基本的な原則をマスターしましょう。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>
