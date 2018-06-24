@@ -33,15 +33,17 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-In total, we have 550 energy units in our spawn and extensions. It is enough to build a creep with the body
-<code>[WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE]</code>. This creep will work 4 times faster than a regular worker
-creep. Its body is heavier, so we’ll add another <code>MOVE</code> to it. However, two parts are still not
-enough to move it at the speed of a small fast creep which would require 4x<code>MOVEs</code> or building a road.
+スポーンと拡張合計で550エナジーを所有しています。
+これでボディ<code>[WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE]</code>のクリープを作れます。
+このクリープは通常のworkerより4倍早く仕事が行えます。
+ボディは通常より重いので、<code>MOVE</code>も1つ多く加えましょう。
+しかし、2個のパーツではまだ十分でなく、小さなクリープと同じ速度で疎くには
+4個の<code>MOVE</code>を付けるか、道(road)を建設する必要があります。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Spawn a creep with the body <code>[WORK,WORK,WORK,CARRY,MOVE,MOVE]</code>, the name <code>HarvesterBig</code>, and
-<code>harvester</code> role.
+ボディ<code>[WORK,WORK,WORK,CARRY,MOVE,MOVE]</code>、名前<code>HarvesterBig</code>、
+ロール<code>harvester</code>でクリープを作成しましょう。
 </div>
 <app-tutorial-code></app-tutorial-code>
 <div class='tutorial-controls'>

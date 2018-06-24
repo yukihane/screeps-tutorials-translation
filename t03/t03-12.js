@@ -31,14 +31,14 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Building this creep took energy from all storages and completely drained them.
+このクリープを作成することで完全に蓄えていたエナジーを使い切ります。
 </p>
 <p>
-Now let’s select our creep and watch it work.
+クリープを選択して働きを確認してみましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Click on the creep Harvester2.
+Harvester2のクリープをクリックしてください。
 </div>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.close()'>Got it</md:button>

@@ -26,9 +26,9 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-As you can see on the right panel, this powerful creep harvests 8 energy units per tick.
-A few such creeps can completely drain an energy source before it refills thus giving your colony a
-maximum energy boost.
+右のパネルを見るとわかる通り、この強力なクリープは1ティックごとに8エナジーユニットを収穫します。
+そういうクリープは少数でエナジーソースを(補充する前に)完全に空にします。
+従ってコロニーに最大限のエナジーブーストを与えます。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>

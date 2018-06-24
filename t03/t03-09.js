@@ -41,16 +41,16 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-To know the total amount of energy in the room, you can use the property <code>Room.energyAvailable</code>.
-Let’s add the output of this property into the console in order to track it during the filling of extensions.
+<code>Room.energyAvailable</code>プロパティでルーム内にあるエナジーの総量がわかります。
+拡張の補充を行っている間エナジー量をトラッキングするためにコンソールにこのプロパティの出力を行ってみましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Fill all the 5 extensions and the spawn with energy.
+5つの拡張とスポーンにエナジーを補充しましょう。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#Room.energyAvailable' target='_blank'>

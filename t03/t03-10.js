@@ -24,7 +24,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Excellent, all the structures are filled with energy. It’s time to build somebody large!
+すばらしい！全建築物にエナジーが満たされました。さあ大きな建築を行いましょう。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>
