@@ -25,8 +25,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-As you can see from the console, after we lacked one harvester, the spawn instantly started building a new
-one with a new name.
+コンソールから見られる通り、harvesterが不足すると新しい名前ですぐに新しいクリープが生成され始めます。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>

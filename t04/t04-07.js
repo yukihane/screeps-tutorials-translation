@@ -41,16 +41,16 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Now the memory of the deceased is relegated to oblivion which saves us resources.
+死んだクリープのメモリは忘却の彼方へ消え去り、私達はリソースを節約することができました。
 </p>
 <p>
-Apart from creating new creeps after the death of old ones, there is another way to maintain the needed number
-of creeps: the method <code>StructureSpawn.renewCreep</code>. Creep aging is disabled in the Tutorial, so we recommend
-that you familiarize yourself with it on your own.
+寿命で死んだ後に新しいクリープを作る方法はさておき、
+クリープの数の管理を管理する別の方法があります: <code>StructureSpawn.renewCreep</code>メソッドです。
+このチュートリアルではクリープは年を取りませんので、別途このメソッドについて試してみることをお勧めします。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#StructureSpawn.renewCreep' target='_blank'>
