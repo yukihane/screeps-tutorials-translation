@@ -28,11 +28,11 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-As you can see, the enemy creep stopped attacking the wall – its harmful methods are blocked.
-We recommend that you activate safe mode when your defenses fail.
+ご覧の通り、敵クリープは壁への攻撃を止めました – 有害なメソッド実行はブロックされています。
+防衛に失敗した場合にセーフモードを有効化することを推奨します。
 </p>
 <p>
-Now let’s cleanse the room from unwanted guests.
+さて、望まぬ来客を駆除しましょう。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>

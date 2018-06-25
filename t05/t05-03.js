@@ -43,20 +43,20 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-The surest way to fend off an attack is using the room <strong>Safe Mode</strong>.
-In safe mode, no other creep will be able to use any harmful methods in the room (but you’ll still be able to defend against strangers).
+攻撃を回避する一番確実な方法は、ルームに<strong>セーフモード(Safe Mode)</strong>を適用することです。
+セーフモード中のルームでは、どのクリープも有害なメソッドを実行できません(ただし敵に対する防御は可能です)。
 </p>
 <p>
-The safe mode is activated via the room controller which should have activations available to use.
-Let’s spend one activation to turn it on in our room.
+セーフモードは、利用可能であればルームコントローラを介して有効化できます。
+さあ私達のルームで有効化してみましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Activate safe mode.
+セーフモードを有効化します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#StructureController.activateSafeMode' target='_blank'>StructureController.activateSafeMode</a></code>

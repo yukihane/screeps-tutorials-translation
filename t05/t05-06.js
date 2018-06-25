@@ -24,7 +24,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-The creep Builder1 has immediately started the construction. Let’s wait until it finishes.
+クリープ Builder1 は即座に建築を開始しました。終わるまで待ちましょう。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.close()'>Got it</md:button>

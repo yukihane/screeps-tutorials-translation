@@ -35,13 +35,13 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-The world of Screeps is not the safest place. Other players may have claims on your territory.
-Besides, your room may be raided by neutral NPC creeps occasionally. So you ought to think about your
-colony defense in order to develop it successfully.
+Screepsの世界は安全な場所ではありません。他のプレーヤがあなたの領地を奪いに来るかもしれません。
+それに加えて、NPCクリープに奇襲を受ける可能性もあります。
+したがって、うまく開発を進めるために領地を守らねばなりません。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <a app-nw-external-link href='http://docs.screeps.com/defense.html' target='_blank'>Defending your room</a>

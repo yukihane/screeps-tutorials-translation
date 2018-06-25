@@ -48,20 +48,21 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Towers are the easiest way to actively defend a room. They use energy and can be targeted at any creep in a room
-to attack or heal it. The effect depends on the distance between the tower and the target.
+タワー(tower)はルームを積極的に防衛するのに最も簡単な方法です。
+タワーはエナジーを消費した上でルーム内の全クリープをターゲットにし、攻撃または回復を行います。
+効果はタワーとターゲットの距離に依存します。
 </p>
 <p>
-To start with, let’s lay a foundation for our new tower. You can set any place you wish inside the walls
-and place the construction site there with the help of the button “Construct” on the upper panel.
+実行するために、新しいタワーのための基盤を構築しましょう。
+壁の内側の好きなところを決め、上部パネルにある“Construct”ボタンで実行します。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Place the construction site for the tower (manually or using the code below).
+タワー建設地を決定します(手動、あるいは下記コードを用います)。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#StructureTower' target='_blank'>StructureTower</a></code>

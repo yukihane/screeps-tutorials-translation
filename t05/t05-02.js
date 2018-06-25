@@ -25,8 +25,9 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-This hostile creep has come from the left entry and attacked your colony. It’s good that we have walls to
-restrain it temporarily. But they will fall sooner or later, so we need to deal with the problem.
+この敵クリープは左の入り口からやって来てあなたの領土を攻撃しています。
+一時的に敵の動きを抑えるのに壁は役に立ちます。
+しかし、その壁もいつかは破られてしまいますので対応が必要です。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>
