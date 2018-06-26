@@ -4,13 +4,13 @@
   "manifest_version": 2,
   "name": "Screeps Tutorial JA",
   "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/http-response",
+  "homepage_url": "https://github.com/yukihane/screeps-tutorials-translation",
   "icons": {
     "48": "pen.svg"
   },
 
   "permissions": [
-    "webRequest", "webRequestBlocking", "https://screeps.com/*"
+    "webRequest", "webRequestBlocking", "https://screeps.com/a/components/game/tutorial/*"
   ],
 
   "background": {
