@@ -30,7 +30,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-メインモジュールのコードを書き直しましょう。<code>require('role.harvester')</code>を行えばループ内で新しく作ったモジュールを呼び出すだけに出来ます。
+メインモジュールのコードを書き直しましょう。<code>require('role.harvester')</code>を行えばループ内で新しく作ったモジュールを呼び出すだけにできます。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>

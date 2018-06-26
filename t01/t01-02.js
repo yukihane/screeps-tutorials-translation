@@ -24,7 +24,7 @@ function listener(details) {
       str = 
   `<section app-tutorial-content>
   <p>
-  チュートリアル中、もし誤ってヒントウィンドウを閉じてしまった場合は、このボタンを押せば再度開くことが出来ます。
+  チュートリアル中、もし誤ってヒントウィンドウを閉じてしまった場合は、このボタンを押せば再度開くことができます。
   </p>
   <div class='tutorial-controls'>
   <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>

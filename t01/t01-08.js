@@ -25,7 +25,7 @@ function listener(details) {
 `<section app-tutorial-content>
 <p>
 すばらしい！ "Harvester1" という名前のクリープが生成されました。
-あなたはこのクリープをコントロールすることが出来ます。
+あなたはこのクリープをコントロールすることができます。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>

@@ -25,7 +25,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-こちらでオブジェクトの特性を見ることが出来ます。
+こちらでオブジェクトの特性を見ることができます。
 個々の特性値やボディーパーツの機能はドキュメントに記述されています。
 </p>
 <div class='tutorial-controls'>

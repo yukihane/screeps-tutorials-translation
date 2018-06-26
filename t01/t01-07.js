@@ -58,7 +58,7 @@ spawnは<code>spawnCreep</code>メソッドで"creeps"(クリープ)と呼ばれ
 各creepは名前と、多様なスキルが得られるいくつかのボディパーツを持っています。
 </p>
 <p>
-次の方法で名前によってspawnを指定することが出来ます: <code>Game.spawns['Spawn1']</code>
+次の方法で名前によってspawnを指定することができます: <code>Game.spawns['Spawn1']</code>
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
