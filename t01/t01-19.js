@@ -53,7 +53,7 @@ function listener(details) {
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-両方のクリープに対してプログラムを拡張しましょう。
+プログラムを拡張し双方のクリープが働くようにします。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>

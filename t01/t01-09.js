@@ -24,7 +24,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-あなたのcreep(やその他オブジェクト)の特性を "View" アクションで見ることができます。
+あなたのクリープ(やその他オブジェクト)の特性を "View" アクションで見ることができます。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>

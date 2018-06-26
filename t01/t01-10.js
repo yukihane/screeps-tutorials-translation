@@ -26,7 +26,7 @@ function listener(details) {
 `<section app-tutorial-content>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-<strong>Alt+Enter</strong> で編集パネルを隠し "View" アクションのヘルプでクリープを選択します。
+<strong>Alt+Enter</strong> で編集パネルを隠し "View" をアクティブにした状態でクリープを選択します。
 </div>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.close()'>Got it</md:button>

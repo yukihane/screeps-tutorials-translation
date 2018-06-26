@@ -26,9 +26,9 @@ function listener(details) {
       // to WebExtension Example.
       str = 
 `<section app-tutorial-content>
-<p>It's much better now!</p>
+<p>改善できました！</p>
 <p>
-この方法でクリープに新しいロールとモジュールを追加することで複数のクリープの動きを制御し管理することができます。
+このやり方でクリープに新しいロールとモジュールを追加することで複数のクリープの動きを制御し管理することができます。
 次のチュートリアルセクションでは、新しいクリープのロールを開発していきます。
 </p>
 <div class='tutorial-controls'>

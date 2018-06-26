@@ -24,7 +24,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-クリープ内部の泡だったように見える黄色のスポットはソースからエナジーを収集し始めたことを表しています。
+クリープ内部の膨らんでいっている黄色の点はソースからエナジーを収集し始めたことを表しています。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>

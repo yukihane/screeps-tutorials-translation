@@ -28,7 +28,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-画面下部のパネル内に記述したコードによってゲームをプレイします。
+画面下部のパネル内にコードを書くことでゲームをプレイします。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>

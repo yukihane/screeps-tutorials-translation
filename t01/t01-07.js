@@ -53,16 +53,16 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-spawnは<code>spawnCreep</code>メソッドで"creeps"(クリープ)と呼ばれるユニットを生成します。
+スポーンは<code>spawnCreep</code>メソッドで"クリープ"(creeps)と呼ばれるユニットを生成します。
 このメソッドの使用方法は<a href="http://docs.screeps.com" app-nw-external-link target="_blank">ドキュメント</a>に記載されています。
-各creepは名前と、多様なスキルが得られるいくつかのボディパーツを持っています。
+各クリープは名前と、多様なスキルが得られるいくつかのボディパーツを持っています。
 </p>
 <p>
-次の方法で名前によってspawnを指定することができます: <code>Game.spawns['Spawn1']</code>
+次の方法で名前によってスポーンを指定することができます: <code>Game.spawns['Spawn1']</code>
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-ボディ配列<code>[WORK,CARRY,MOVE]</code>でワーカーcreepを作成し、<code>Harvester1</code>と名づけます(この名前はチュートリアルに置いて重要です！)。
+ボディ配列<code>[WORK,CARRY,MOVE]</code>でワーカークリープを作成し、<code>Harvester1</code>と名づけます(この名前はチュートリアルにおいて重要です！)。
 コンソールにコードをタイプします。次のヒントをcopy&nbsp;&&nbsp;pasteすることもできます。
 </div>
 <div class='objective'>

@@ -65,16 +65,16 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-エナジーを収穫するクリープを作るために、後述しているドキュメントのセクションに記載されたメソッドを使う必要があります。
+エナジーを収穫するクリープを作るために、後述しているドキュメントに記載されているメソッドを使う必要があります。
 コマンドはゲームティックごとに渡されます。 <code>harvest</code>メソッドを実行するにはエナジーソースがクリープと隣接していなければなりません。
 </p>
 <p>
-次の方法で名前指定で命令を行えます: <code>Game.creeps['Harvester1']</code>。
+次の方法で名前指定で命令を与えられます: <code>Game.creeps['Harvester1']</code>。
 <code>Room.find</code>メソッドの引数として<code>FIND_SOURCES</code>を使いましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-"Script" タブにコードをタイプしあなたのクリープにエナジー収穫命令を行いましょう。
+"Script" タブにコードをタイプしあなたのクリープにエナジー収穫命令を与えましょう。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>

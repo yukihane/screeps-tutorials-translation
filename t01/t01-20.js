@@ -43,13 +43,13 @@ function listener(details) {
 `<section app-tutorial-content>
 <p>
 さて、次は<em>モジュール</em>にワーカーの振る舞いを分割しコードを改善しましょう。
-スクリプトエディタの左側にあるモジュールセクションのヘルプを用い<code>role.harvester</code>というモジュールを作成します。
+スクリプトエディタの左側にあるモジュールセクションで<code>role.harvester</code>というモジュールを作成します。
 そして、<code>module.exports</code>オブジェクトの中で<code>run</code>関数を定義します。
 この関数にクリープの振る舞いを含めます。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-<code>role.harvester</code> モジュールを作成しましょう。
+<code>role.harvester</code> モジュールを作成します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
