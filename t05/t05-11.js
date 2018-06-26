@@ -53,15 +53,16 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-All the damage from the attack has been repaired!
+攻撃でダメージを受けていた壁が全て修復されました！
 </p>
 <p>
-Congratulations, you have completed the Tutorial! Now you have enough knowledge and code to start playing in
-the online mode. Choose your room, found a colony, and set out on your own quest for domination in the
-world of Screeps!
+おめでとうございます！チュートリアルはこれで完了です！
+オンラインモードでプレイするための十分な知識とコードを得ました。
+ルームを選択し、領土の基礎を築き、Screepsの世界に冒険へと旅立ちましょう！
 </p>
 <p>
-If you want to delve deeper in the subtleties of the game or have any questions, please feel free to refer to:
+もしゲームの機微についてより深く調べたかったり、何か疑問点が有る場合、
+心置きなくに次のリンク先を参照して下さい:
 <ul>
 <li>
 <a app-nw-external-link href='http://docs.screeps.com/' target='_blank'>
@@ -81,7 +82,7 @@ Slack chat
 </ul>
 </p>
 <p>
-Have fun scripting!
+良いスクリプティングを！
 </p>
 <div class='tutorial-controls'>
 <md:button ng:click='Tutorial.close()'>Stay</md:button>

@@ -48,20 +48,21 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Damaged structures can be repaired by both creeps and towers. Let’s try to use a tower for that.
-We’ll need the method <code>repair</code>. You will also need the method <code>Room.find</code> and a filter to locate the damaged walls.
+ダメージを受けた構造物はクリープ、タワーのどちらでも修復できます。
+ここではタワーを使って修復してみましょう。
+<code>repair</code>を使用します。また、ダメージを受けた壁を特定するのに<code>Room.find</code>メソッドの結果をフィルタします。
 </p>
 <p>
-Note that since walls don’t belong to any player, finding them requires the constant <code>FIND_STRUCTURES</code>
-rather than <code>FIND_MY_STRUCTURES</code>.
+壁はどのプレーヤにも属していないので、検索するのには<code>FIND_MY_STRUCTURES</code>でなく
+<code>FIND_STRUCTURES</code>定数を用いる必要があります。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-Repair all the damaged walls.
+ダメージを受けた全ての壁を修復します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
-Documentation:
+ドキュメント:
 <ul>
 <li>
 <code><a app-nw-external-link href='http://docs.screeps.com/api/#Room.find' target='_blank'>

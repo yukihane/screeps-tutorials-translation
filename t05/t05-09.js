@@ -25,8 +25,9 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-The enemy creep is eliminated and our colony can breathe easy. However, the invader has damaged some walls during the brief
-attack. You’d better set up auto-repair.
+敵クリープを殲滅し一息つけるようになりました。
+しかし、侵略者は壁にダメージを与えていました。
+自動修復をセットアップしておいた方が良いでしょう。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>
