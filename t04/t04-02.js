@@ -49,8 +49,8 @@ function listener(details) {
 `<section app-tutorial-content>
 <p>
 古いクリープが寿命その他の理由で死んだとき新しいクリープを生成しなければならないでしょう。
-個々のクリープが死んだときにゲーム内では特にイベント通知は行われないので
-最も簡単な方法はクリープの数をカウントし、事前定義した数より少なくなれば生成するということになります。
+個々のクリープが死んだときにゲーム内では特にイベント通知は行われないので、
+最も簡単な実現方法はクリープの数をカウントし、事前定義した数より少なくなれば生成するということになります。
 </p>
 <p>
 クリープの数をカウントする方法は何種類かあります。
@@ -59,7 +59,7 @@ function listener(details) {
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-コンソールでロール<code>harvester</code>のクリープの数を出力しましょう。
+コンソールでロール<code>harvester</code>のクリープの数を出力します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>

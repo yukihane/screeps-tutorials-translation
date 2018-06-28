@@ -32,7 +32,7 @@ function listener(details) {
 `<section app-tutorial-content>
 <p>
 タワーはエナジーを消費しますので、他の建築物と合わせてharvesterロールに対しタワーにエナジーを運ぶようセットしましょう。
-これを成すため、定数<code>STRUCTURE_TOWER</code>をharvesterが利用しているフィルタに追加する必要があります。
+これを達成するために、定数<code>STRUCTURE_TOWER</code>をharvesterが利用しているフィルタに追加する必要があります。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>

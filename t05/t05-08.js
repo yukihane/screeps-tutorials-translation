@@ -62,7 +62,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-Excellent, your tower is ready to use!
+すばらしい！タワーの準備ができました！
 </p>
 <p>
 タワーもクリープと似たメソッドをいくつか持っています: <code>attack</code>, <code>heal</code>, <code>repair</code>です。
