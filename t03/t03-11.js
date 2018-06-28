@@ -33,7 +33,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-スポーンと拡張合計で550エナジーを所有しています。
+スポーンとエクステ合計で550エナジーを所有しています。
 これでボディ<code>[WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE]</code>のクリープを作れます。
 このクリープは通常のworkerより4倍早く仕事が行えます。
 ボディは通常より重いので、<code>MOVE</code>も1つ多く加えましょう。

@@ -42,11 +42,11 @@ function listener(details) {
 `<section app-tutorial-content>
 <p>
 <code>Room.energyAvailable</code>プロパティでルーム内にあるエナジーの総量がわかります。
-拡張の補充を行っている間エナジー量をトラッキングするためにコンソールにこのプロパティの出力を行ってみましょう。
+エクステの補充を行っている間エナジー量をトラッキングするためにコンソールにこのプロパティの出力を行ってみましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-5つの拡張とスポーンにエナジーを補充しましょう。
+5つのエクステとスポーンにエナジーを補充しましょう。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>

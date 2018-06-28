@@ -33,7 +33,7 @@ function listener(details) {
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-新しいクリープで<code>role.builder</code>モジュールを使うことで、5つ全ての拡張を建設します。
+新しいクリープで<code>role.builder</code>モジュールを使うことで、5つ全てのエクステを建設します。
 </div>
 <app:tutorial-code title='main'></app:tutorial-code>
 <div class='tutorial-controls'>

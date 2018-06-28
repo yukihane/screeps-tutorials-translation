@@ -52,7 +52,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-拡張を取り扱うには、スポーンに対してだけでなく拡張に対してもエナジーを運ぶようharvesterに教えてあげなければいけません。
+エクステを取り扱うには、スポーンに対してだけでなくエクステに対してもエナジーを運ぶようharvesterに教えてあげなければいけません。
 そうするために、<code>Game.structures</code>オブジェクトを使用するか、該当ルームで
 <code>Room.find(FIND_STRUCTURES)</code>を用います。
 両方のケースで
