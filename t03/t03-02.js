@@ -29,12 +29,12 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-第2のコントローラレベルに達するには<strong>5つのエクステ</strong>を建設する必要があります。
-この数字は新しいレベルになるにつれ増えていきます。
+コントローラレベル2に達するには<strong>5つのエクステ</strong>を建設する必要があります。
+この数値は上位レベルになるにつれ増えていきます。
 </p>
 <p>
-エクステを作る場所はルーム内のどこでも良く、スポーンは距離に関係なくそれらを使用できます。
-このチュートリアルでは便利なようにあらかじめ付随する構造物を設定しています。
+エクステを設置する場所はルーム内のどこでも良く、スポーンは距離に関係なくそれらを使用できます。
+このチュートリアルでは便宜上周辺に建設地を設定しています。
 </p>
 <div class='tutorial-controls'>
 <md:button class='md-raised md-primary' ng:click='Tutorial.next()'>Next</md:button>

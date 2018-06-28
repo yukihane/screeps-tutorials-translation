@@ -48,7 +48,7 @@ function listener(details) {
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
 クリープをボディ <code>[WORK,CARRY,MOVE]</code> 、名前 <code>Builder1</code> 、メモリ <code>{role:'builder'}</code>
-で生成しましょう。
+で生成します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>

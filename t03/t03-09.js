@@ -46,7 +46,7 @@ function listener(details) {
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-5つのエクステとスポーンにエナジーを補充しましょう。
+5つのエクステとスポーンにエナジーを補充します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>

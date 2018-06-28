@@ -63,22 +63,22 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-それではこのロールを<code>role.builder</code>モジュールへ分割しましょう。
+それではこのロールを<code>role.builder</code>モジュールに実装しましょう。
 建築は、<code>Creep.build</code>メソッドを
 <code>Room.find(FIND_CONSTRUCTION_SITES)</code>によって検索可能な建設地に対し適用することで実行されます。
 建造物にはエナジーが必要です。
 </p>
 <p>
-エナジーの消耗を早めるのでなるべくクリープの頻繁な行き来を避けられるよう、
-いつタスクの切り替えを行うべきかクリープに教えられるような
+クリープを頻繁に行き来させるとエナジーの消耗を早めてしまいます。
+そのような状況を避けるため、いつタスクの切り替えを行うべきかクリープに教えられるような
 <code>creep.memory.building</code>というboolean変数を新しく作りロジックを組みましょう。
-また、クリープの行動意図をビジュアルで示せるよう、
-新規に<code>creep.say</code>を呼び、
-<code>moveTo</code>メソッドに<code>visualizePathStyle</code>オプションオプションを付与しましょう。
+また、クリープの行動意図を視覚的に示せるよう、
+<code>creep.say</code>を呼び、
+<code>moveTo</code>メソッドに<code>visualizePathStyle</code>オプションを付与しましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-新しいクリープ用のロジックを<code>role.builder</code>モジュールに作成しましょう。
+新しいクリープ用のロジックを<code>role.builder</code>モジュールに作成します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>

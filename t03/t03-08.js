@@ -63,7 +63,7 @@ function listener(details) {
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-<code>role.harvester</code>モジュールのロジックを改良しましょう。
+<code>role.harvester</code>モジュールのロジックを改良します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
