@@ -26,7 +26,7 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-このチュートリアルセクションではあなたのルーム内の重要な戦略オブジェクト <strong>Room Controller</strong> (ルームコントローラ)について説明します。
+このチュートリアルセクションではルーム内の重要な戦略オブジェクト <strong>ルームコントローラ(Room Controller)</strong> について説明します。
 この無敵の建造物をコントロールすることでルームの中に施設を建築できます。
 コントローラレベルが高くなると、より多くの施設を建築できるようになります。
 </p>

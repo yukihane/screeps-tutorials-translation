@@ -51,16 +51,17 @@ function listener(details) {
 `<section app-tutorial-content>
 <p>
 そうするためには、各クリープの<code>memory</code>プロパティを活用し、クリープの"メモリ"にカスタム情報を書き込めるようにする必要があります。
-さて、クリープに異なるロールを割り当ててみましょう。
+クリープに異なるロールを割り当ててみましょう。
 </p>
 <p>
-ストアされたメモリはグローバルな<code>Memory</code>を介してアクセスできます。
+ストアされたメモリはグローバルな<code>Memory</code>オブジェクトを介してアクセスできます。
 この領域はあなたの好きなように使うことができます。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-harvesterクリープのメモリにプロパティ<code>role='harvester'</code>を設定し、
-コンソールのヘルプを使ってupgraderクリープにプロパティ<code>role='upgrader'</code>を設定します。
+コンソールを使い、
+harvesterクリープのメモリにプロパティ<code>role='harvester'</code>を、
+upgraderクリープにはプロパティ<code>role='upgrader'</code>を設定します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>

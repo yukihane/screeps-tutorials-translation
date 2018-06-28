@@ -31,8 +31,8 @@ function listener(details) {
       str = 
 `<section app-tutorial-content>
 <p>
-メインモジュールの中で全クリープが同じロールを持っています。
-前回定義した<code>Creep.memory.role</code>を使って振る舞いを割り振ってやる必要があります。
+現時点のメインモジュールでは全クリープが同じロールを実行します。
+先ほど新しく作成したモジュールを<code>Creep.memory.role</code>プロパティに設定し振る舞いを割り振ります。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
