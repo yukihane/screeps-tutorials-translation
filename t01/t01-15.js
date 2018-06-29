@@ -74,7 +74,7 @@ function listener(details) {
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-"Script" タブにコードをタイプしあなたのクリープにエナジー収穫命令を与えましょう。
+"Script" タブにコードをタイプしあなたのクリープにエナジー収穫命令を与えます。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>

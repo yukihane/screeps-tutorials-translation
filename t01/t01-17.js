@@ -66,7 +66,7 @@ function listener(details) {
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-収穫したエナジーをスポーンへ輸送し、その後収穫作業へ戻るようにクリープのプログラムを拡張しましょう。
+収穫したエナジーをスポーンへ輸送し、その後収穫作業へ戻るようにクリープのプログラムを拡張します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
