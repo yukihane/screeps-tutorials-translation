@@ -66,14 +66,14 @@ function listener(details) {
 両方のクリープともエナジーを収穫すべきですが、<code>harvester</code>ロールのクリープは
 エナジーをスポーンに送るべきで、一方<code>upgrader</code>ロールのクリープはコントローラへ向かい
 <code>upgradeController</code>関数をコントローラに適用すべきです(<code>Creep.room.controller</code>
-プロパティのヘルプでコントローラオブジェクトを取得することができます)。
+プロパティでコントローラオブジェクトを取得することができます)。
 </p>
 <p>
 それを達成するために、新しいモジュール<code>role.upgrader</code>を作成しましょう。
 </p>
 <div class='objective'>
 <div class='fa fa-caret-right'></div>
-新しいクリープの行動ロジックである<code>role.upgrader</code>を作成しましょう。
+新しいクリープの行動ロジックである<code>role.upgrader</code>を作成します。
 </div>
 <div class='objective'>
 <div class='fa fa-caret-down'></div>
